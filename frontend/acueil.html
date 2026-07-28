@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuamTech Developeur freelance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href ="index.html" class="logo">
+                <i data-lucide="code-2"></i>
+                <span>QuamTech</span>
+            </a>
+            <nav class="main-nav">
+                <a href="acueil.html">Acceuil</a>
+                <a href="services.html">Services</a>
+                <a href="technologies.html">Technologies</a>
+                <a href="projects.html">Projects</a>
+                <a href="apropos.html">Apropos</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a href="contact.html" class="btn btn-primary btn-small">Me contacter <i data-lucide="send"></i>
+            </a>
+        </div>
+    </header>
+    <section class="hero" id="acceuil">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="eyebrow">DEVELOPPEUR FREELANCE</p>
+                <h1>Des solution logiciel sur messure pour faire grandir<span class="gradient-text">vos idees.</span> </h1>
+                <p class="hero-desc">Developpeur logiciel freelance pationner, j'aide les startups, entreprises et entrepreneurs a transformer leur idee en application web et mobiles performantes.</p>
+
+                <div class="hero-cta">
+                    <a href="services.html" class="btn btn-primary">Voir mes services<i data-lucide="arrow-right"></i></a>
+                    <a href="projects.html" class=" btn btn-outline">Voir mes projets<i data-lucide="briefcase"></i></a>
+                </div>
+
+                <ul class="hero-features">
+                    <li><i data-lucide="shield-check"></i>Code propre &amp; securiser</li>
+                    <li><i data-lucide="zap"></i>Livraison rapide</li>
+                    <li><i data-lucide="headphones"></i>Support reactive</li>
+                </ul>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="code-window-top">
+                        <div class="win-dots">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                    </div>
+                    <div class="code-window-body">
+                        <aside class="code-sidebar">
+                            <i data-lucide="files"></i>
+                            <i data-lucide="search"></i>
+                            <i data-lucide="git-branch"></i>
+                            <i data-lucide="layout-grid"></i>
+                        </aside>
+
+                        <div class="code-explorer">
+                            <p class="explorer-title">EXPLORER</p>
+                            <P class="explorer-project">MY-PROJECT</P>
+                            <ul class="tree">
+                                <li class="folder open">src
+                                    <ul>
+                                        <li class="folder">components</li>
+                                        <li class="folder">pages</li>
+                                        <li class="folder">services</li>
+                                        <li class="folder">utils</li>
+                                        <li class="file js">App.jsx</li>
+                                        <li class="file js">index.js</li>
+                                    </ul>
+                                </li>
+                                <li class="file git">.gitignore</li>
+                                <li class="file json">package.json</li>
+                                <li class="file md">README.md</li>
+                            </ul>
+                        </div>
+                        <div class="code-editor">
+                            <div class="tabs">
+                                <span class="tab active">App.jsx <i data-lucide="x"></i></span>
+                                <span class="tab">Header.jsx</span>
+                                <span class="tab">api.js</span>
+                            </div>
+                            <pre class="code-lines"><code><span class="ln">1</span><span class="kw">import</span>React<span class="kw">from</span><span class="str">'react'</span>;
+                            <span class="ln">2</span><span class="kw">import</span>{Header }<span class="kw">from</span><span class="str">'./components/Header'</span>;
+                            <span class="ln">3</span><span class="kw">import</span>{Hero }<span class="kw">from</span><span class="str">'./components/Hero'</span>;
+                            <span class="ln">4</span><span class="kw">import</span>{Services }<span class="kw">from</span><span class="str">'./components/Services'</span>;
+                            <span class="ln">5</span>
+                            <span class="ln">6</span><span class="kw">function</span><span class="fn">App</span>() {
+                                <span class="ln">7</span> <span class="kw">return</span>(
+                                    <span class="ln">8</span> &lt;<span class="tag">div</span> <span class="attr">className</span>=<span class="str">"app"</span>&gt;
+                                    <span class="ln">9</span> &lt;<span class="tag">Header</span> /&gt;
+                                    <span class="ln">10</span> &lt;<span class="tag">Hero</span> /&gt;
+                                    <span class="ln">11</span> &lt;<span class="tag">Services</span> /&gt;
+                                    <span class="ln">12</span> &lt;/<span class="tag">div</span>&gt;
+                                    <span class="ln">13</span> );
+                                    <span class="ln">14</span>}
+                                    <span class="ln">15</span>
+                                    <span class="ln">16</span><span class="kw">export default</span>App;</code></pre>
+
+                                    <div class="status-bar">
+                                        <span>Ln 1, Col 1</span>
+                                        <span>Spaces:2</span>
+                                        <span>UTF-8</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-badge badge-react"><i data-lucide="atom"></i></div>
+                <div class="floating-badge badge-node">JS</div>
+                <div class="floating-badge badge-leaf"><i data-lucide="leaf"></i></div>
+                <div class="floating-badge badge-js">JS</div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow center">MES SERVICES</p>
+                <h2>Des service pour tous vos besoins numeriques</h2>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="icon-box icon-blue"><i data-lucide="code"></i></div>
+                    <h3>Developpement Web</h3>
+                    <P>Site web modernes, rapides et responsive avec les meilleures technologies.</P>
+                    <a href="services.html" class="link-arrow blue">En savoir plus <i data-lucide="arrow-right"></i></a>
+                </article>
+
+                <article class="service-card">
+                    <div class="icon-box icon-indigo"><i data-lucide="smartphone"></i></div>
+                    <h3>Application Mobiles</h3>
+                    <p>Application mobiles natives et cross-platform pour iOS et Android.</p>
+                    <a href="services.html" class="link-arrow green">En savoir plus<i data-lucide="arrow-right"></i></a>
+                </article>
+
+                <article class="service-card">
+                    <div class="icon-box icon-pink"><i data-lucide="wand-2"></i></div>
+                    <h3>Back-end</h3>
+                    <p>APIs robustes et securisees , architecture scalable et bases de donnees.</p>
+                    <a href="services.html" class="link-arrow pink">En savoir plus <i data-lucide="arrow-right"></i></a>
+                </article>
+
+                <article class="service-card">
+                    <div class="icon-box icon-pink"><i data-lucide="wand-2"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Interfaces modernes,intuitive et centrees sur lexperiance utilisateur.</p>
+                    <a href="services.html" class="link-arrow pink">En savoir plus <i data-lucide="arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="processus">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow center">MON PROCESSUS</p>
+                <h2>Une appproache simple et efficace</h2>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-icon step-purple"><i data-lucide="message-circle"></i></div>
+                    <p class="step-num purple">01</p>
+                    <h3>Analyse &amp; Echange</h3>
+                    <p>Nous discutons de votre projet, vos besoin et objectifs.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon step-blue"><i data-lucide="pencil-ruler"></i></div>
+                    <p class="step-num blue">02</p>
+                    <h3>Conception</h3>
+                    <p>je concois une solution adaptee et une architecture solide.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon step-green"><i data-lucide="code-2"></i></div>
+                    <p class="step-num green">03</p>
+                    <h3>Developpement</h3>
+                    <p>Je develop votre solution avec un code propre et testee.</p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-icon step-pink"><i data-lucide="rocket"></i></div>
+                    <p class="step-num pink">04</p>
+                    <h3>Livraison &amp; Support</h3>
+                    <p>Livraison, deploiement et support pour assurer votre succes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <p> 2026 Quantech. Tous droit reserves.</p>
+            <div class="footer-socials">
+                <a href="https://github/" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:contact@devcraft.fr"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+    
+</body>
+</html>
