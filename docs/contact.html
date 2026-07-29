@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+</head>
+<body>
+     <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <i data-lucide="code-2"></i>
+                <span>QuamTech</span>
+            </a>
+            <nav class="main-nav">
+                <a href="acueil.html">Accueil</a>
+                <a href="services.html">Services</a>
+                <a href="technologies.html">Technologies</a>
+                <a href="projects.html">Projects</a>
+                <a href="apropos.html">Apropos</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a href="contact.html" class="btn btn-primary btn-small">Me contacter<i data-lucide="send"></i>
+            </a>
+
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <p class="breadcrub"><a href="acueil.html">Accueil</a> / Apropos</p>
+            <h1>Developeur freelance pationner</h1>
+            <p>Chaque message que je recois est une nouvelle idee a construire.</p>
+            <p>Alors n'hesitez pas , meme si c'est juste une question.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container contact-grid">
+
+            <from id="contact-from" class="contact-from" novalidate>
+                <div class="form-row">
+                    <div class="form-groupe">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="votre nom">
+                    </div>
+
+                    <div class="form-groupe">
+                        <label for="email">Adress email</label>
+                        <input type="email" id="email" name="email" placeholder="vous@example.com">
+                    </div>
+                </div>
+
+                <div class="form-groupe">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder=" Sujet de votre message">
+                    </div>
+
+                    <div class="form-groupe">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Decrivez votre besoin"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+
+                    <p class="form-feed-back" role="status" aria-live="polite"></p>
+            </from>
+
+            <aside class="contact-info-card">
+                <h3>Coordonees</h3>
+
+                <div class="contact-into-item">
+                    <div class="icon-box icon-blue"><i data-lucide="mail"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>adelinekamgakamguem09@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-into-item">
+                    <div class="icon-box icon-indigo"><i data-lucide="phone"></i></div>
+                    <div>
+                        <h4>Telephone</h4>
+                        <p>+237 694268140 / +237 673147033</p>
+                    </div>
+                </div>
+
+                <div class="contact-into-item">
+                    <div class="icon-box icon-green"><i data-lucide="map-pin"></i></div>
+                    <div>
+                        <h4>Localisation</h4>
+                        <p>Cameroon . Disponible a distance</p>
+                    </div>
+                </div>
+
+                <div class="contact-into-item">
+                    <div class="icon-box icon-pink"><i data-lucide="clock"></i></div>
+                    <div>
+                        <h4>Delai de reponse</h4>
+                        <p>Sous 24h a 48h</p>
+                    </div>
+                </div>
+
+                 <div class="footer-socials">
+                <a href="https://github/" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:contact@devcraft.com"><i data-lucide="mail"></i></a>
+            </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p> 2026 QuamTech. Tous droits reserves.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:contact@devcraft.com"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+ 
+</body>
+</html>
